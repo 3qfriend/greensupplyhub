@@ -1,0 +1,28 @@
+{
+  "siteName": "GreenSupplyHub",
+  "siteNameCn": "Green Supply Hub",
+  "domain": "greensupplyhub.asia",
+  "tagline": "Asia's Green Textile Supply Chain Platform",
+  "description": "Dedicated to driving green textile supply chain transformation across Asia, connecting quality sustainable suppliers and promoting eco-friendly development.",
+  "contact": {
+    "email": "info@greensupplyhub.asia",
+    "phone": "+86-21-6888-8888",
+    "address": "18F, Green Economy Center, Tower A, Changning District, Shanghai, China",
+    "wechat": "GreenSupplyHub"
+  },
+  "social": {
+    "linkedin": "#",
+    "wechat": "#",
+    "weibo": "#"
+  },
+  "stats": {
+    "members": "350+",
+    "countries": "12",
+    "certifications": "20+",
+    "events": "50+"
+  },
+  "admin": {
+    "username": "admin",
+    "password": "admin123"
+  }
+}

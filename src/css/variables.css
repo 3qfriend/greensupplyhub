@@ -1,0 +1,127 @@
+/* ============================================
+   GreenSupplyHub Design System — CSS Variables
+   ============================================ */
+:root {
+  /* Primary Green Palette */
+  --color-primary-900: #1B5E20;
+  --color-primary-800: #2E7D32;
+  --color-primary-700: #388E3C;
+  --color-primary-600: #43A047;
+  --color-primary-500: #4CAF50;
+  --color-primary-400: #66BB6A;
+  --color-primary-300: #81C784;
+  --color-primary-200: #A5D6A7;
+  --color-primary-100: #C8E6C9;
+  --color-primary-50: #E8F5E9;
+
+  /* Accent Gold */
+  --color-accent-600: #FF8F00;
+  --color-accent-500: #FFB300;
+  --color-accent-400: #FFC107;
+  --color-accent-300: #FFD54F;
+  --color-accent-200: #FFE082;
+  --color-accent-100: #FFF8E1;
+
+  /* Neutrals */
+  --color-neutral-950: #0a0f0a;
+  --color-neutral-900: #1a1f1a;
+  --color-neutral-800: #2d332d;
+  --color-neutral-700: #404740;
+  --color-neutral-600: #5a625a;
+  --color-neutral-500: #6b746b;
+  --color-neutral-400: #8a928a;
+  --color-neutral-300: #b0b8b0;
+  --color-neutral-200: #d4dbd4;
+  --color-neutral-100: #e8ede8;
+  --color-neutral-50: #f5f7f5;
+
+  /* Semantic */
+  --color-success: #2E7D32;
+  --color-warning: #F9A825;
+  --color-error: #C62828;
+  --color-info: #1565C0;
+
+  /* Surfaces */
+  --surface-primary: #ffffff;
+  --surface-secondary: var(--color-neutral-50);
+  --surface-elevated: #ffffff;
+  --surface-overlay: rgba(0, 0, 0, 0.5);
+
+  /* Text */
+  --text-primary: var(--color-neutral-900);
+  --text-secondary: var(--color-neutral-600);
+  --text-tertiary: var(--color-neutral-400);
+  --text-inverse: #ffffff;
+  --text-accent: var(--color-primary-700);
+
+  /* Typography */
+  --font-sans: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Inter', 'Noto Sans SC', sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0,0,0,0.2);
+  --shadow-glow: 0 0 20px rgba(76, 175, 80, 0.3);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layout */
+  --container-max: 1280px;
+  --container-narrow: 900px;
+  --header-height: 72px;
+
+  /* Z-index */
+  --z-dropdown: 100;
+  --z-header: 200;
+  --z-modal: 300;
+  --z-tooltip: 400;
+  --z-toast: 500;
+}
