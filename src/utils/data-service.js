@@ -19,7 +19,7 @@ class DataService {
   async loadSuppliers() {
     const local = this._getLocal(STORAGE_KEYS.suppliers);
     if (local) return local;
-    const data = await this._fetchJSON('/src/data/suppliers.json');
+    const data = await this._fetchJSON('./data/suppliers.json');
     this._setLocal(STORAGE_KEYS.suppliers, data);
     return data;
   }
@@ -27,7 +27,7 @@ class DataService {
   async loadNews() {
     const local = this._getLocal(STORAGE_KEYS.news);
     if (local) return local;
-    const data = await this._fetchJSON('/src/data/news.json');
+    const data = await this._fetchJSON('./data/news.json');
     this._setLocal(STORAGE_KEYS.news, data);
     return data;
   }
@@ -35,7 +35,7 @@ class DataService {
   async loadConfig() {
     const local = this._getLocal(STORAGE_KEYS.config);
     if (local) return local;
-    const data = await this._fetchJSON('/src/data/config.json');
+    const data = await this._fetchJSON('./data/config.json');
     this._setLocal(STORAGE_KEYS.config, data);
     return data;
   }
