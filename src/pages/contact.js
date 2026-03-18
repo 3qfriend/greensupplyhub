@@ -23,7 +23,7 @@ export function renderContact() {
               </div>
               <div>
                 <h4>Office Address</h4>
-                <p>18F, Green Economy Center, Tower A<br/>Changning District, Shanghai, China</p>
+                <p>Room201, Building2, NO.215<br/>Road Yaohua, PuDong, Shanghai</p>
               </div>
             </div>
 
@@ -33,7 +33,7 @@ export function renderContact() {
               </div>
               <div>
                 <h4>Email</h4>
-                <p>info@greensupplyhub.asia</p>
+                <p>market@greensupplyhub.asia</p>
                 <p style="color:var(--text-tertiary);font-size:var(--text-xs)">Response within 24 hours on business days</p>
               </div>
             </div>
@@ -44,7 +44,7 @@ export function renderContact() {
               </div>
               <div>
                 <h4>Phone</h4>
-                <p>+86-21-6888-8888</p>
+                <p>+86-18616806685</p>
                 <p style="color:var(--text-tertiary);font-size:var(--text-xs)">Mon–Fri 9:00–18:00 (CST)</p>
               </div>
             </div>

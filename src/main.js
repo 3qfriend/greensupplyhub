@@ -141,10 +141,10 @@ function renderFooter() {
         <div class="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li><a href="mailto:info@greensupplyhub.asia">info@greensupplyhub.asia</a></li>
-            <li><a href="tel:+862168888888">+86-21-6888-8888</a></li>
-            <li>Changning District, Shanghai</li>
-            <li>Green Economy Center</li>
+            <li><a href="mailto:market@greensupplyhub.asia">market@greensupplyhub.asia</a></li>
+            <li><a href="tel:+8618616806685">+86-18616806685</a></li>
+            <li>PuDong, Shanghai</li>
+            <li>Go-Enter LTD</li>
           </ul>
         </div>
       </div>
