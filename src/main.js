@@ -144,7 +144,7 @@ function renderFooter() {
             <li><a href="mailto:market@greensupplyhub.asia">market@greensupplyhub.asia</a></li>
             <li><a href="tel:+8618616806685">+86-18616806685</a></li>
             <li>PuDong, Shanghai</li>
-            <li>Go-Enter LTD</li>
+            <li>Go-Enter Co., Ltd</li>
           </ul>
         </div>
       </div>
