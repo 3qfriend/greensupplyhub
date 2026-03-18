@@ -1,8 +1,11 @@
 {
   "name": "greensupplyhub",
   "version": "1.0.0",
-  "description": "GreenSupplyHub.asia - 亚洲绿色纺织供应链平台",
+  "description": "GreenSupplyHub.asia - Asia's Green Textile Supply Chain Platform",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
